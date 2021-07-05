@@ -1,12 +1,17 @@
 * , body{
     margin: 0;
     padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
 }
 h1 {
     font-size: 55px;
 }
+h2{
+    font-size:40px;
+}
 p{
-    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
     margin: 20px 0px;
 }
 a{
@@ -17,6 +22,7 @@ img{
 }
 section{
     width: 100%;
+    padding-top: 50px;
 }
 .flex-container{
     display: flex;
@@ -35,10 +41,10 @@ section{
     vertical-align: middle;
 }
 .brand-color{
-    color: coral;
+    color: #0072ff;
 }   
 .btn-grad {
-    background-image: linear-gradient(to right, #FF512F 0%, #F09819  51%, #FF512F  100%)
+    background-image: linear-gradient(to right, #00c6ff 0%, #0072ff  51%, #00c6ff  100%)
 }
 .btn-grad {
     margin-top: 20px;
@@ -75,5 +81,44 @@ section{
 #about img{
     width: 60%;
 }
+/* About Section End */
+
+/* ----------------------------- */
+
+/* Food Section Start */
+#foods .section-heading{
+    text-align: center;
+    color: rgb(47, 47, 47);
+}
+#foods .sub-heading{
+    text-align: center;
+    opacity: 0.7;
+    width: 50%;
+    margin:20px auto;
+}
+#foods .flex-container{
+    gap: 5%;
+}
+#foods ul{
+    list-style-type: none;
+}
+#foods .flex-item{
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+#foods .food-title{
+    font-size: 28px;
+    margin-top: 25px;
+    color: #2f2e2e;
+}
+#foods .food-desc{
+    opacity: 0.8;
+    letter-spacing: 1px;
+}
+
+
+/* Food Section End */
 
 
