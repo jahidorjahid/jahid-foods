@@ -7,7 +7,7 @@ h1 {
 }
 p{
     font-size: 25px;
-    margin-bottom: 10px;
+    margin: 20px 0px;
 }
 a{
     text-decoration: none;
@@ -41,6 +41,7 @@ section{
     background-image: linear-gradient(to right, #FF512F 0%, #F09819  51%, #FF512F  100%)
 }
 .btn-grad {
+    margin-top: 20px;
     padding: 20px 30px;
     text-align: center;
     text-transform: uppercase;
@@ -49,6 +50,7 @@ section{
     color: white;            
     box-shadow: 0 0 20px #eee;
     border-radius: 25px;
+    display: inline-block;
 }
 
 .btn-grad:hover {
@@ -58,3 +60,20 @@ section{
 }
     
 /* Header Section Start */
+
+
+/* Header Section Start */
+
+/* ----------------------------- */
+
+/* About Section Start */
+.about-bg {
+    background-image: url("assets/shapes/about-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#about img{
+    width: 60%;
+}
+
+
