@@ -163,11 +163,14 @@ header ul{
 #about img{
     width: 60%;
 }
+#about p{
+    opacity: 0.7;
+}
 /* About Section End */
 
 /* ----------------------------- */
 
-/* Food Section Start */
+/* Recipe Section Start */
 #recipe .section-heading{
     text-align: center;
 }
@@ -192,7 +195,7 @@ header ul{
 #recipe .food-title{
     font-size: 28px;
     margin-top: 25px;
-    color: #2f2e2e;
+    color: #464444;
 }
 #recipe .food-desc{
     opacity: 0.8;
@@ -221,7 +224,7 @@ header ul{
 .social-name:hover span {display:none;}
 .social-name:hover:before {content:"Click to Follow"; color:blue;}
 
-/* Food Section End */
+/* Recipe Section End */
 
 
 /* Contact Section Start */
@@ -303,7 +306,7 @@ footer a:hover{
     color: #0ca2f9;
 }
 
-/* Footer Section End 8?
+/* Footer Section End */
 
 
 
