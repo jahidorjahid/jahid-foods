@@ -23,6 +23,9 @@ a{
 img{
     width: 100%;
 }
+span{
+    font-family: 'Rubik', sans-serif;
+}
 section{
     width: 100%;
     padding-top: 50px;
@@ -44,8 +47,8 @@ section{
     vertical-align: middle;
 }
 .brand-color{
-    color: #0072ff;
-}   
+    color: #0ca2f9;
+}
 .btn-grad {
     background-image: linear-gradient(to right, #00c6ff 0%, #0072ff  51%, #00c6ff  100%);
 }
@@ -67,6 +70,13 @@ section{
     color: #fff;
     text-decoration: none;
 }
+.section-heading{
+    font-size: 30px;
+    opacity: 0.8;
+    font-weight: 600;
+    font-family: 'Rubik', sans-serif;
+    color: #404040;
+}
     
 /* Header Menu Section Start */
 
@@ -79,9 +89,8 @@ header{
 }
 header h4{
     font-size: 20px;
-    font-family: 'Rubik', sans-serif;
     font-weight: 700;
-    color: rgb(60 58 58);
+    color: #404040;
 }
 header .brand-color{
     color: white;
@@ -129,6 +138,11 @@ header ul{
 
 /* ----------------------------- */
 
+/* Header Main Section Start */
+
+
+/* Header Main Section Start */
+
 /* About Section Start */
 .about-bg {
     background-image: url("assets/shapes/about-bg.jpg");
@@ -145,7 +159,6 @@ header ul{
 /* Food Section Start */
 #foods .section-heading{
     text-align: center;
-    color: rgb(47, 47, 47);
 }
 #foods .sub-heading{
     text-align: center;
@@ -166,6 +179,8 @@ header ul{
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 #foods img{
+    width: 100%;
+    height: 260px;
     border-radius: 15px;
 }
 #foods .food-title{
@@ -175,7 +190,7 @@ header ul{
 }
 #foods .food-desc{
     opacity: 0.8;
-    letter-spacing: 1px;
+    
 }
 
 #foods .social-fan{
@@ -192,7 +207,9 @@ header ul{
     width: 33%;
 }
 .social-fan h1{
-    font-size: 50px;
+    font-size: 40px;
+    color: #404040;
+    font-family: 'Rubik', sans-serif;
     margin-bottom: 5px;
 }
 .social-name:hover span {display:none;}
@@ -210,8 +227,7 @@ footer{
     padding-bottom: 60px;
 }
 footer h4{
-    color: gray;
-    font-family: 'Rubik', sans-serif;
+    color: #404040;
     font-size: 30px;
 }
 footer p{
