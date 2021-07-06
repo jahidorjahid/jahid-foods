@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500i,900,900i'); 
 * , body{
     margin: 0;
     padding: 0;
     font-family: 'Josefin Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 h1 {
     font-size: 55px;
@@ -45,7 +47,7 @@ section{
     color: #0072ff;
 }   
 .btn-grad {
-    background-image: linear-gradient(to right, #00c6ff 0%, #0072ff  51%, #00c6ff  100%)
+    background-image: linear-gradient(to right, #00c6ff 0%, #0072ff  51%, #00c6ff  100%);
 }
 .btn-grad {
     margin-top: 20px;
@@ -66,10 +68,64 @@ section{
     text-decoration: none;
 }
     
-/* Header Section Start */
+/* Header Menu Section Start */
 
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #11B2FB;
+}
+header h4{
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    color: rgb(60 58 58);
+}
+header .brand-color{
+    color: white;
+}
+header ul{
+    list-style-type: none;
+}
 
-/* Header Section Start */
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  padding: 0px 20px;
+}
+
+.nav-links li a {
+  font-size: 18px;
+  color: white;
+  transition: color 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+  opacity: 0.5;
+}
+
+.contact-btn {
+    font-size: 18px;
+    padding: 9px 25px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+  }
+  
+  .contact-btn:hover {
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background-image: linear-gradient(to right, #00c6ff 0%, #0072ff  51%, #00c6ff  100%);
+  }
+
+/* Header Menu Section Start */
 
 /* ----------------------------- */
 
@@ -153,8 +209,10 @@ footer{
     padding-top: 40px;
     padding-bottom: 60px;
 }
-footer h2{
+footer h4{
     color: gray;
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
 }
 footer p{
     margin-top: 30px;
